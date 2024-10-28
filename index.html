@@ -88,7 +88,7 @@
     <p><strong>Com todo o meu coração,</strong></p>
     <p><strong>Danilo</strong></p>
 
-    <div id="contador">Desde o seu 'Aceito', você faz os meus dias mais felizes há exatamente:</br><span id="timePassed"></span></div>
+    <div id="contador">Desde o seu 'Aceito', você está fazendo meus dias mais felizes há exatamente:</br><span id="timePassed"></span></div>
 
     <!-- Galeria de fotos estilo Polaroid -->
     <div class="photo-gallery">
@@ -172,7 +172,7 @@
 
     <script>
         // Definir a data inicial
-        const startDate = new Date("2024-08-25T00:00:00"); // Altere para a data desejada
+        const startDate = new Date("2024-08-25T21:30:00"); // Altere para a data desejada
 
         function updateTimePassed() {
             const now = new Date();
@@ -185,7 +185,7 @@
 
             // Exibir o contador formatado
             document.getElementById("timePassed").innerHTML = 
-                `${days} dias, ${hours} horas, ${minutes} minutos e ${seconds} segundos`;
+                `${days} dias<br> ${hours} horas<br> ${minutes} minutos<br> ${seconds} segundos`;
         }
 
         // Atualiza o contador a cada segundo
